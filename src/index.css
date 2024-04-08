@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+body {
+  margin: 0;
+  display: flex;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  background-color: #120744;
+  color: white; 
+  padding : 5px; 
+}
+a {
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  border-radius: 15px;
+  background-color: #be5fb0;
+}
+
+
+
